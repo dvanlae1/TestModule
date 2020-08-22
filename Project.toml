@@ -1,7 +1,13 @@
 name = "TestModule"
 uuid = "1f225ef5-1dcc-4bfc-ae29-328af152c319"
 authors = ["Dirk VL"]
-version = "0.1.0"
+version = "0.1.1"
+
+[deps]
+BitblinxData = "b1cbd8c7-a8b6-4020-bbe5-2d67abe4c6ec"
+ConfParsIni = "168d913f-c0b4-4429-be2c-94d2dcf2f6bb"
+CryptoCompareData = "c53585c2-9184-49b4-b3a7-b65356365eb1"
+DbConns = "a3652cbe-d1f8-47af-b4c0-e7ca28bffe14"
 
 [compat]
 julia = "1"
